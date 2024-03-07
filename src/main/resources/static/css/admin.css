@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    align-items: center;
+}
+
+.underline {
+    margin: 0 auto 40px;
+    width: 60px;
+    height: 4px;
+    background-color: #2471A3;
+}
+.color {
+	background-color: #2471a3;
+	color: white;
+}
+.logout {
+	margin: 20px 20px;
+}

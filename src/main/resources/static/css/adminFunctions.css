@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.underline {
+    margin: 0 auto 40px;
+    width: 60px;
+    height: 4px;
+    background-color: #2471A3;
+}
+
+.card-text {
+    position: relative;
+    align-items: center;
+    height: 240px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+.card {
+    border: 4px solid #2471A3;
+    border-left: 4px solid #2471A3;
+}
+
+.fa-solid {
+    left: 0;
+}
+
+.button {
+    position: absolute;
+    top: 200px;
+    left: 125px;
+    width: 100px;
+    padding: 5px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.button:hover {
+    transform: scale(0.96);
+    background-color: #2471A3;
+    color: #fff;
+}

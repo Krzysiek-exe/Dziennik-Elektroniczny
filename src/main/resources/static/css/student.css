@@ -1,0 +1,82 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ebecf2;
+}
+
+h2 {
+    margin: 20px;
+    color: #2471A3;
+}
+
+table {
+  background-color: #b1b3b3;
+}
+
+.logged {
+  margin: 0px 20px;
+}
+
+.underline1 {
+  margin: 20px;
+  width: 300px;
+  height: 4px;
+  background-color: #2471A3;
+}
+
+.underline2 {
+    margin: 0 auto 20px;
+    width: 60px;
+    height: 4px;
+    background-color: #2471A3;
+}
+
+.color {
+	background-color: #2471a3;
+	color: white;
+}
+
+.navcolor{
+  background-color: #828586;
+}
+
+.logout {
+	margin: 20px 20px;
+}
+
+.cursor:hover {
+	cursor: auto;
+}
+
+.tt {
+	font-weight: bold;
+	cursor: auto;
+	pointer-events: auto;
+}
+
+.grade-1 {
+	background-color: #e60000;
+}
+.grade-2 {
+	background-color: #f2e255;
+}
+.grade-3 {
+	background-color: #0a78e3;
+}
+.grade-4 {
+	background-color: #8b51f6;
+}
+.grade-5 {
+	background-color: #4dad8d;
+}
+.grade-6 {
+	background-color: #72d473;
+}
